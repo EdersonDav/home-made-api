@@ -14,3 +14,9 @@ export interface IAddress {
 export interface ICategory {
   name: string;
 }
+
+export interface IWeekDaySchedule {
+  day: string;
+  openingHours: string;
+  closingHours: string;
+}
