@@ -16,7 +16,16 @@ export interface ICategory {
 }
 
 export interface IWeekDaySchedule {
-  day: string;
+  day: TDaysOfWeek;
   openingHours: string;
   closingHours: string;
 }
+
+export type TDaysOfWeek =
+  | 'monday'
+  | 'tuesday'
+  | 'wednesday'
+  | 'thursday'
+  | 'friday'
+  | 'saturday'
+  | 'sunday';
