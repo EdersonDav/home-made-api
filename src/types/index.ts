@@ -29,3 +29,10 @@ export type TDaysOfWeek =
   | 'friday'
   | 'saturday'
   | 'sunday';
+
+export interface IImages {
+  url: string;
+  description?: string;
+  name?: string;
+  priority?: boolean;
+}
